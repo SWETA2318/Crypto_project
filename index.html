@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Crypto Tracker</title>
+</head>
+<body>
+    <!-- Making Navbar -->
+    <nav id="navbar">
+        <form id="navForm">
+            <input type="text" id="search" name="search" placeholder="Search By Name or Symbol">
+            <select name="cap" id="cap">
+                <option value="" disabled selected>Sort By Mkt Cap</option>
+                <option value="all">All</option>
+                <option value="LowToHigh">Low To High</option>
+                <option value="HighToLow">High To Low</option>
+            </select>
+            <select name="percentage" id="percentage">
+                <option value="" disabled selected>Sort By Percentage</option>
+                <option value="all">All</option>
+                <option value="LowToHigh">Low To High</option>
+                <option value="HighToLow">High To Low</option>
+            </select>
+        </form>
+    </nav>
+
+    <!-- Main Container -->
+    <main id="main_container">
+        <table id="data_table">
+     </table>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
